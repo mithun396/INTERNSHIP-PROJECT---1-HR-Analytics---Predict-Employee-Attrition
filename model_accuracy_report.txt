@@ -1,0 +1,22 @@
+HR ATTRITION MODEL PERFORMANCE REPORT
+
+Model Used: Logistic Regression
+
+Dataset Overview: Total Employees: 1470 Test Data Size: 294 Target
+Variable: Attrition (Yes/No)
+
+Confusion Matrix: [[175 80] [ 13 26]]
+
+Interpretation: True Negatives (TN): 175 False Positives (FP): 80 False
+Negatives (FN): 13 True Positives (TP): 26
+
+Model Performance Metrics: Accuracy: 68.3% ROC-AUC Score: 0.766 Recall
+(Attrition Class): 66.7% Precision (Attrition Class): 24.5%
+
+Performance Interpretation: - Model identifies 67% of employees likely
+to resign. - ROC-AUC of 0.766 indicates good classification
+capability. - Low false negatives help detect high-risk employees. -
+Recall and ROC-AUC are prioritized due to class imbalance.
+
+Business Impact: - Enables proactive HR intervention - Reduces hiring
+and training costs - Improves workforce stability
